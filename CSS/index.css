@@ -1,0 +1,68 @@
+/* h1 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 700;
+}
+
+ul {
+  list-style: circle;
+} */
+
+/* .main-container {
+  height: 80rem;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-card {
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+  border-radius: 2rem;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50rem;
+  height: 70rem;
+  background-color: lightgray;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  font-size: 4rem;
+  position: relative;
+}
+
+.box-1 {
+  width: 10rem;
+  height: 10rem;
+  background-color: lightcoral;
+}
+.box-2 {
+  width: 20rem;
+  height: 20rem;
+  background-color: lightcyan;
+  /* position: static; */
+  /* position: relative; */
+  /* top: 2rem;
+  left: 3rem; */
+  /* position: absolute; */
+  /* top: 0rem;
+  left: 0rem; */
+  top: 0;
+  /* position: fixed; */
+  position: sticky;
+}
+.box-3 {
+  width: 30rem;
+  height: 30rem;
+  background-color: lightgreen;
+}
